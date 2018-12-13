@@ -1,0 +1,52 @@
+User Command: node liri.js spotify-this-song drake 
+
+User Command: node liri.js spotify-this-song yosemite 
+
+User Command: node liri.js spotify-this-song yosemite 
+
+User Command: node liri.js movie-this friday
+
+User Command: node liri.js movie-this friday
+
+User Command: node liri.js movie-this friday
+
+User Command: node liri.js movie-this friday
+
+User Command: node liri.js movie-this friday
+
+User Command: node liri.js movie-this black-panther
+
+User Command: node liri.js spotify-this-song undefined
+
+User Command: node liri.js spotify-this-song Global
+
+User Command: node liri.js spotify-this-song Global
+
+User Command: node liri.js spotify-this-song Global
+
+User Command: node liri.js spotify-this-song Global
+
+User Command: node liri.js spotify-this-song Global
+
+User Command: node liri.js movie-this black-panther
+
+User Command: node liri.js movie-this black-panther
+
+User Command: node liri.js movie-this black-panther
+
+User Command: node liri.js movie-this undefined
+
+User Command: node liri.js movie-this black-panther
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js movie-this undefined
+
+User Command: node liri.js movie-this undefined
+
+User Command: node liri.js movie-this undefined
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
