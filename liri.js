@@ -1,5 +1,5 @@
 require("dotenv").config();
-const fs = require('fs');
+var fs = require('fs');
 const axios = require('axios');
 const moment = require('moment');
 const Spotify = require('node-spotify-api');
@@ -45,7 +45,7 @@ var spotifySong = function (songName) {
     if (songName === '') {
         songName = "The Sign Ace of Base";
     }
-    spotify.request("https://api.spotify.com/v1/search?category=" + songName + "&type=track&offset=20&limit=10").then(function (data) {
+    spotify.search({type: 'track', query: songName}, function (err, data) {
         if (err) {
             console.log('Error occurred: ' + err);
             return;
@@ -53,8 +53,8 @@ var spotifySong = function (songName) {
             for (var i = 0; i < 10; i++) {
                 output =
                     "\n================= LIRI FOUND THIS FOR YOU ==================\n"
-                    + `Artist: ${data.tracks.items[i].album.artists[0].name}` + space +
-                    + `Song Name: + data.tracks.items[i].name}` + space
+                    + `Artist: ${data.tracks.items[i].album.artists[0].name}` + space
+                    + `Song Name: ${data.tracks.items[i].name}` + space
                     + `Link: ${data.tracks.items[i].album.external_urls.spotify}` + space
                     + `Album Name: ${data.tracks.items[i].album.name}`;
                 console.log(output);
@@ -93,18 +93,18 @@ var OMDB = function (movie) {
         });
 }
 
-function doWhatItSays(category, search) {
-    fs.readFile("random.txt", "utf8", function (error, data) {
+function doWhatItSays() {
+    fs.readFile("./random.txt", "utf-8", function (error, data) {
         if (error) {
             return console.log(error);
         }
+        console.log(error, data);
         var dataArr = data.split(",");
         category = dataArr[0].trim();
         search = dataArr[1].trim();
-        console.log(dataArr)
         listener(category, search);
     });
-}
+};
 
 
 // Declaring if statement for user search of 'concert-this'
@@ -119,6 +119,7 @@ function listener(category, query) {
         OMDB(query);
     };
     if (category === 'do-what-it-says') {
+      
         doWhatItSays();
     }
     else if (!category) {

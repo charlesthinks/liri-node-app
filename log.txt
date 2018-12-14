@@ -50,3 +50,31 @@ User Command: node liri.js spotify-this-song global
 
 User Command: node liri.js spotify-this-song global
 
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song global
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
+User Command: node liri.js spotify-this-song "I Want it That Way"
+
