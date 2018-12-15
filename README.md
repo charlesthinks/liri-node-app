@@ -4,12 +4,12 @@
 
 LIRI uses BandsInTown, Spotify, and OMDB API to get information back to you, the user. Presents your query in a simple format , easy to understand. LIRI is especially useful in cases when you **don't** want to go to multiple different sites to get simple information. Now that we got that out of the way, are you ready to start using LIRI?!
 
-## Context...
-1. [Getting Started](#getting-started)
-    1. [Commands](#commands)
-    1. [Building](#building)
-    1. [Installation](#installation)
-    1. [Usage](#usage)
+## Table of Contents...
+1. [About](#liri-node-app)
+1. [Commands](#commands)
+1. [Building](#building)
+1. [Installation](#installation)
+1. [Usage](#usage)
 
 ## Getting Started...
 
@@ -33,9 +33,13 @@ Easter Egg:...
 `node liri.js do-what-it-says`...
 
 ![alt text](https://i.ibb.co/F7zdcgN/concert-ths.jpg")...
+**[Back to top](#table-of-contents)**
 
 ![alt text](https://i.ibb.co/DLt0FRY/spotify-this-song.jpg")...
+**[Back to top](#table-of-contents)**
 
 ![alt text](https://i.ibb.co/ZGF42kB/movie-this.jpg")...
+**[Back to top](#table-of-contents)**
 
 ![alt text](https://i.ibb.co/xJrD6S7/do-what-it-says.jpg")
+**[Back to top](#table-of-contents)**
