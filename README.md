@@ -7,8 +7,9 @@ LIRI uses BandsInTown, Spotify, and OMDB API to get information back to you, the
 
 ## Installation...
 
-1. Copy the repository link to clone to your machine:
-..1.`https://github.com/charlesthinks/liri-node-app.git`
+1. Copy the *git clone* link to copy the repository to your machine: *`https://github.com/charlesthinks/liri-node-app.git`*
+2. Open __Git Bash__
+4. Clone to your machine with *`git clone https://github.com/charlesthinks/liri-node-app.git`*
 
 ### Commands...
 
