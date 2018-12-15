@@ -17,9 +17,13 @@ LIRI uses BandsInTown, Spotify, and OMDB API to get information back to you, the
 *`https://github.com/charlesthinks/liri-node-app.git.`*
 2. Open __Git Bash__ & and clone __*liri-node-app*__ repository in terminal:*`git clone https://github.com/charlesthinks/liri-node-app.git`*.
 
-### Commands...
+#### Commands...
 
 Type inside console `node liri.js` for a list of commands...
+`node liri.js concert-this <artist's name>`
+`node liri.js spotify-this-song <song name>`
+`node liri.js movie-this <movie name>`
+`node liri.js do-what-it-says`
 
 ![alt text](https://i.ibb.co/RPjnv0V/liri-commands.jpg")...
 
