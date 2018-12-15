@@ -7,10 +7,10 @@ LIRI uses BandsInTown, Spotify, and OMDB API to get information back to you, the
 ## Table of Contents...
 1. [About](#liri-node-app)
 1. [Commands](#commands)
-    1. [Concerts]
-    1. [Spotify]
-    1. [Movie]
-    1. [Easter Egg]
+    1. [Concert search](#concert-search)
+    1. [Spotify search](#spotify-search)
+    1. [Movie search](#movie-search)
+    1. [Easter Egg](#easter-egg)
 1. [Building](#building)
 1. [Installation](#installation)
 1. [Usage](#usage)
